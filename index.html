@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Softwareentwicklung &amp; Automatisierung</title>
+    <meta
+      name="description"
+      content="Professionelle Softwareentwicklung, Automatisierung und Digitalisierung für kleine Unternehmen."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#top">Softwareentwicklung &amp; Automatisierung</a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+            <span class="sr-only">Menü öffnen</span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul id="nav-menu" class="nav-menu">
+            <li><a href="#top">Start</a></li>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#projekte">Projekte</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1 id="hero-title">Individuelle Softwarelösungen für kleine Unternehmen.</h1>
+            <p class="hero-subtext">
+              Ich entwickle Automatisierungen, Web-Apps und Schnittstellen – effizient,
+              modern und passgenau.
+            </p>
+            <a class="button" href="#leistungen">Leistungen ansehen</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="leistungen" class="section" aria-labelledby="leistungen-title">
+        <div class="container">
+          <h2 id="leistungen-title">Leistungen</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Automatisierungen &amp; Schnittstellen</h3>
+              <p>
+                Entwicklung schlanker Tools, API-Integrationen und automatisierter Datenprozesse,
+                die wiederkehrende Aufgaben zuverlässig übernehmen.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Web-Apps &amp; Dashboards</h3>
+              <p>
+                Browserbasierte Anwendungen und Reporting-Lösungen, die Abläufe sichtbar machen und
+                Entscheidungen unterstützen.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Digitalisierung von Formularen &amp; Prozessen</h3>
+              <p>
+                Erfassung, Validierung und Weiterleitung von Daten mit klaren Workflows – digital,
+                revisionssicher und nachvollziehbar.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Setup &amp; Anpassung von Open-Source-Systemen</h3>
+              <p>
+                Einrichtung und Erweiterung etablierter Systeme wie Dolibarr, OrangeHRM oder Nextcloud
+                für den produktiven Einsatz.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projekte" class="section" aria-labelledby="projekte-title">
+        <div class="container">
+          <h2 id="projekte-title">Projekte &amp; Beispiele</h2>
+          <div class="grid projects">
+            <article class="card project-card">
+              <h3>Workflow Automatisierung</h3>
+              <p>
+                Automatisierte Übertragung von Formular-Daten in CRM- und ERP-Systeme zur Reduktion
+                manueller Eingaben.
+              </p>
+              <ul class="tech-list">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noopener">
+                GitHub Repository
+              </a>
+            </article>
+            <article class="card project-card">
+              <h3>Dashboard für Service-Kennzahlen</h3>
+              <p>
+                Übersichtliche Darstellung von Support-Tickets und KPIs mit Anbindung an bestehende
+                Servicetools.
+              </p>
+              <ul class="tech-list">
+                <li>TypeScript</li>
+                <li>Svelte</li>
+                <li>REST APIs</li>
+              </ul>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noopener">
+                Live-Demo
+              </a>
+            </article>
+            <article class="card project-card">
+              <h3>Digitale Formularstrecke</h3>
+              <p>
+                Ersetzt papierbasierte Abläufe durch validierte Online-Formulare mit automatischer
+                Dokumentenerzeugung.
+              </p>
+              <ul class="tech-list">
+                <li>Vue.js</li>
+                <li>Node.js</li>
+                <li>Docx Templates</li>
+              </ul>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noopener">
+                Projektbeschreibung
+              </a>
+            </article>
+            <article class="card project-card">
+              <h3>Open-Source ERP Rollout</h3>
+              <p>
+                Planung, Installation und kundenspezifische Erweiterung eines Open-Source-ERP-Systems
+                für ein Dienstleistungsunternehmen.
+              </p>
+              <ul class="tech-list">
+                <li>Dolibarr</li>
+                <li>PHP</li>
+                <li>Docker</li>
+              </ul>
+              <a class="project-link" href="https://github.com/" target="_blank" rel="noopener">
+                Technische Dokumentation
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section contact" aria-labelledby="kontakt-title">
+        <div class="container">
+          <h2 id="kontakt-title">Kontakt</h2>
+          <p>Interesse an einer Zusammenarbeit?</p>
+          <p>
+            <a class="button secondary" href="mailto:kontakt@example.com">E-Mail schreiben</a>
+          </p>
+          <p class="contact-links">
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <span aria-hidden="true">•</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2025 – Softwareentwicklung &amp; Automatisierung</p>
+        <div class="footer-links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('#nav-menu');
+
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => {
+          const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+          navToggle.setAttribute('aria-expanded', String(!expanded));
+          navMenu.classList.toggle('is-open');
+        });
+      }
+    </script>
+  </body>
+</html>
